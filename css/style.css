@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#app-wrapper {
+    width: 100%;
+    height: 100vh;
+
+    /*test*/
+    background-color: aquamarine;
+}
+
+.upgrade {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 70px;
+    width: calc( 100% - 220px );
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: right;
+    color: white;
+}
+
+.button {
+    border: 1px solid white;
+    font-size: 15px;
+    border-radius: 40%;
+    padding: 10px;
+    line-height: 50px;
+    margin-right: 10px;
+}
+
+/*main*/
+
+main {
+    height: calc( 100% - 80px );
+    /*test*/
+    background-color: chocolate;
+}
+
+/*nav*/
+
+nav {
+    float: left;
+    height: 100%;
+    width: 220px;
+    overflow: hidden;
+    color: white;
+    /*test*/
+    background-color: black;
+}
+
+nav a {
+    color: grey;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    height: 70px;
+}
+
+.logo img {
+    height: 40px;
+    margin: 5% 0 5% 5%;
+}
+
+.img-nav {
+    height: 25px;
+}
+
+.line-height {
+    margin-left: 3px;
+    vertical-align: 5px;
+}
+
+/*main content*/
+
+.main-content {
+    float: left;
+    height: 100%;
+    width: calc( 100% - 220px );
+    overflow-y: auto;
+    color: white;
+    padding-top: 100px;
+    /*test*/
+    background-color: hsl(219deg 26% 11%);
+}
+
+.margine {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        width: 80px;
+    }
+
+    .main-content {
+        width: calc( 100% - 80px);
+    }
+
+    .upgrade {
+        width: calc( 100% - 80px);
+    }
+}
+
+.main-links {
+    height: 140px;
+    margin-left: 5%;
+}
+
+.playlists {
+    height: calc( 100% - 280px );
+    min-height: 100px;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+.playlist-names {
+    height: 100%;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.playlist-names li {
+    margin-top: 10px;
+}
+
+.crea {
+    color: grey;
+    margin-top: 5px;
+}
+
+.crea:hover {
+    color: white;
+}
+
+.square {
+    font-size: 30px;
+}
+
+.install {
+    height: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.download {
+    color: grey;
+    padding-bottom: 5px;
+    border-bottom: grey 1px solid;
+}
+
+.download:hover {
+    color: white;
+}
+
+.line-height-dwn {
+    vertical-align: 2px;
+}
+
+.img-dwn {
+    height: 15px;
+}
+
+.profile {
+    margin-top: 10px;
+}
+
+.img-profile {
+    height: 22px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+/*footer*/
+
+footer {
+    height: 80px;
+    color: white;
+    overflow: hidden;
+
+    /*test*/
+    background-color: hsl(0deg 0% 16%);
+}
