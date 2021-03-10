@@ -80,48 +80,20 @@ nav a:hover {
     vertical-align: 5px;
 }
 
-/*main content*/
-
-.main-content {
-    float: left;
-    height: 100%;
-    width: calc( 100% - 220px );
-    overflow-y: auto;
-    color: white;
-    padding-top: 100px;
-    /*test*/
-    background-color: hsl(219deg 26% 11%);
-}
-
-.margine {
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-@media screen and (max-width: 767px) {
-    nav {
-        width: 80px;
-    }
-
-    .main-content {
-        width: calc( 100% - 80px);
-    }
-
-    .upgrade {
-        width: calc( 100% - 80px);
-    }
-}
-
 .main-links {
-    height: 140px;
+    height: 110px;
     margin-left: 5%;
 }
 
 .playlists {
-    height: calc( 100% - 280px );
+    height: calc( 100% - 250px );
     min-height: 100px;
     margin-left: 5%;
     overflow: hidden;
+}
+
+.playlists h2 {
+    font-size: 20px;
 }
 
 .playlist-names {
@@ -180,6 +152,71 @@ nav a:hover {
     background-color: grey;
     border-radius: 50%;
 }
+
+/*main content*/
+
+.main-content {
+    float: left;
+    height: 100%;
+    width: calc( 100% - 220px );
+    overflow-y: auto;
+    color: white;
+    padding-top: 100px;
+    /*test*/
+    background-color: hsl(219deg 26% 11%);
+}
+
+.margine {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.margine h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.creato-per {
+    margin-top: 30px;
+}
+
+.popular {
+    margin-top: 30px;
+}
+
+.album {
+    height: 200px;
+    margin-right: 10px;
+}
+
+.album:hover {
+    
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        width: 80px;
+    }
+
+    .main-content {
+        width: calc( 100% - 80px);
+    }
+
+    .upgrade {
+        width: calc( 100% - 80px);
+    }
+}
+
+
 
 /*footer*/
 
