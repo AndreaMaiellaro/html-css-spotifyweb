@@ -36,8 +36,7 @@
 
 main {
     height: calc( 100% - 80px );
-    /*test*/
-    background-color: chocolate;
+    background-color: black;
 }
 
 /*nav*/
@@ -49,7 +48,7 @@ nav {
     overflow: hidden;
     color: white;
     /*test*/
-    background-color: black;
+    
 }
 
 nav a {
@@ -77,12 +76,13 @@ nav a:hover {
 
 .line-height {
     margin-left: 3px;
-    vertical-align: 5px;
+    vertical-align: -2px;
 }
 
 .main-links {
     height: 110px;
     margin-left: 5%;
+    
 }
 
 .playlists {
@@ -90,6 +90,7 @@ nav a:hover {
     min-height: 100px;
     margin-left: 5%;
     overflow: hidden;
+    
 }
 
 .playlists h2 {
@@ -100,6 +101,7 @@ nav a:hover {
     height: 100%;
     overflow-y: auto;
     margin-top: 10px;
+    
 }
 
 .playlist-names li {
@@ -123,6 +125,7 @@ nav a:hover {
     height: 70px;
     margin-left: 5%;
     margin-right: 5%;
+    
 }
 
 .download {
@@ -166,6 +169,25 @@ nav a:hover {
     background-color: hsl(219deg 26% 11%);
 }
 
+.menu {
+    text-transform: uppercase;
+    color: grey;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li:hover {
+    border-bottom: 2px solid lightgreen;
+    border-width: 20%;
+}
+
 .margine {
     margin-left: 2%;
     margin-right: 2%;
@@ -189,13 +211,12 @@ p {
     margin-top: 30px;
 }
 
-.album {
+.img-album {
     height: 200px;
-    margin-right: 10px;
 }
 
-.album:hover {
-    
+.play {
+    font-size: 50px;
 }
 
 .circle {

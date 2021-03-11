@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
     <title>Spotify</title>
@@ -29,56 +29,56 @@
                         <li>
                             <a href="#">
                                 <img class="img-nav" src="img/home.svg" alt="#">
-                                <span class="line-height">Home</span>
+                                <span class="line-height"><strong>Home</strong></span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <img class="img-nav" src="img/search.svg" alt="#">
-                                <span class="line-height">Cerca</span>
+                                <span class="line-height"><strong>Cerca</strong></span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <img class="img-nav" src="img/libreria.svg" alt="#">
-                                <span class="line-height">La tua libreria</span>
+                                <span class="line-height"><strong>La tua libreria</strong></span>
                             </a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="playlists">
-                    <h2>PLAYLIST</h2>
+                    <h2><strong>PLAYLIST</strong></h2>
                     <div class="crea">
                         <a href="#">
                             <i class="fas fa-plus-square square"></i>
-                        <span class="line-height">Crea Playlist</span>
+                        <span class="line-height"><strong>Crea Playlist</strong></span>
                         </a>
                     </div>
                     <ul class="playlist-names">
                         <li>
-                            <a href="#">nome playlist</a>
+                            <a href="#"><strong>Nome Playlist</strong></a>
                         </li>
                         <li>
-                            <a href="#">nome playlist</a>
+                            <a href="#"><strong>Nome Playlist</strong></a>
                         </li>
                         <li>
-                            <a href="#">nome playlist</a>
+                            <a href="#"><strong>Nome Playlist</strong></a>
                         </li>
                         <li>
-                            <a href="#">nome playlist</a>
+                            <a href="#"><strong>Nome Playlist</strong></a>
                         </li>
                         <li>
-                            <a href="#">nome playlist</a>
+                            <a href="#"><strong>Nome Playlist</strong></a>
                         </li>
                         <li>
-                            <a href="#">nome playlist</a>
+                            <a href="#"><strong>Nome Playlist</strong></a>
                         </li>
                         <li>
-                            <a href="#">nome playlist</a>
+                            <a href="#"><strong>Nome Playlist</strong></a>
                         </li>
                         <li>
-                            <a href="#">nome playlist</a>
+                            <a href="#"><strong>Nome Playlist</strong></a>
                         </li>
                     </ul>
                 </div>
@@ -99,28 +99,89 @@
             <!--content-->
             <div  class="main-content">
                 <div class="margine">
+                    <div class="menu">
+                        <ul>
+                            <li><strong>in evidenza</strong></li>
+                            <li><strong>podcast</strong></li>
+                            <li><strong>classifiche</strong></li>
+                            <li><strong>generi e mood</strong></li>
+                            <li><strong>nuove uscite</strong></li>
+                            <li><strong>scopri</strong></li>
+                        </ul>
+                    </div>
                     <div class="recently">
-                        <h2>Recently Played</h2>
-                        <img class="album" src="img/metal_lifting.jpg" alt="#">
-                        <img class="album" src="img/stranger.jpeg" alt="#">
-                        <img class="album" src="img/aquietplace.jpeg" alt="#">
-                        <img class="album" src="img/split.jpeg" alt="#">
-                        <img class="album" src="img/cure.jpeg" alt="#">
-                        <img class="album" src="img/sinister.jpeg" alt="#">
+                        <h2><strong>Recently Played</strong></h2>
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 ">    
+                                <img class="img-album" src="img/metal_lifting.jpg" alt="#">
+                                <h4 class="text-center">Heavy Metal</h4>
+                                <p class="text-center">Subtitle</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+                                
+                                <img class="img-album" src="img/stranger.jpeg" alt="#">
+                                <h4 class="text-center">Stranger THings, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
+                                <p class="text-center">Kyle Dixon & Michael Stein</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+                                
+                                <img class="img-album" src="img/aquietplace.jpeg" alt="#">
+                                <h4 class="text-center">A Quiet Place</h4>
+                                <p class="text-center">Subtitle</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+                                
+                                <img class="img-album" src="img/split.jpeg" alt="#">
+                                <h4 class="text-center">Split</h4>
+                                <p class="text-center">Subtitle</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+                                
+                                <img class="img-album" src="img/cure.jpeg" alt="#">
+                                <h4 class="text-center">A cure for wellness</h4>
+                                <p class="text-center">Subtitle</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+                                
+                                <img class="img-album" src="img/sinister.jpeg" alt="#">
+                                <h4 class="text-center">Sinister</h4>
+                                <p class="text-center">Subtitle</p>
+                            </div>
+                        </div>
                     </div>
                     
                     <div class="creato-per">
-                        <h2>Creato per John Doe</h2>
+                        <h2><strong>Creato per John Doe</strong></h2>
                         <p>Più ascolti, più accurati saranno i suggerimenti</p>
-                        <img class="album" src="img/radar.jpeg" alt="#">
-                        <img class="album" src="img/mixdaily.jpeg" alt="#">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+                                
+                                <img class="img-album" src="img/radar.jpeg" alt="#">
+                                <h4 class="text-center">Release Radar</h4>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+                                
+                                <img class="img-album" src="img/mixdaily.jpeg" alt="#">
+                                <h4 class="text-center">Daily Mix 1</h4>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="popular">
-                        <h2>Artisti più popolari</h2>
+                        <h2><strong>Artisti più popolari</strong></h2>
                         <p>Più ascolti, più accurati saranno i suggerimenti</p>
-                        <img class="album circle" src="img/youg.jpeg" alt="#">
-                        <img class="album circle" src="img/einaudi.jpeg" alt="#">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+                                
+                                <img class="img-album circle" src="img/youg.jpeg" alt="#">
+                                <h4 class="text-center">Lana Del Rey</h4>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
+                                
+                                <img class="img-album circle" src="img/einaudi.jpeg" alt="#">
+                                <h4 class="text-center">Ludovico Einaudi</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
