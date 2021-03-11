@@ -113,6 +113,10 @@ nav a:hover {
     margin-top: 5px;
 }
 
+.line-height-crea {
+    vertical-align: 5px;
+}
+
 .crea:hover {
     color: white;
 }
@@ -139,7 +143,7 @@ nav a:hover {
 }
 
 .line-height-dwn {
-    vertical-align: 2px;
+    vertical-align: -2px;
 }
 
 .img-dwn {
@@ -172,6 +176,7 @@ nav a:hover {
 .menu {
     text-transform: uppercase;
     color: grey;
+    height: 40px;
 }
 
 .menu ul {
@@ -186,6 +191,7 @@ nav a:hover {
 .menu li:hover {
     border-bottom: 2px solid lightgreen;
     border-width: 20%;
+    cursor: pointer;
 }
 
 .margine {
@@ -195,6 +201,10 @@ nav a:hover {
 
 .margine h2 {
     margin-bottom: 20px;
+}
+
+h4 {
+    margin-top: 20px;
 }
 
 p {
@@ -212,7 +222,7 @@ p {
 }
 
 .img-album {
-    height: 200px;
+    width: 100%;
 }
 
 .play {
@@ -243,9 +253,18 @@ p {
 
 footer {
     height: 80px;
-    color: white;
+    color: hsl(0deg 0% 53%);
     overflow: hidden;
 
     /*test*/
     background-color: hsl(0deg 0% 16%);
+}
+
+.img-footer {
+    height: 40px;
+}
+
+.margin-footer {
+    padding: 18px 2% 18px 2%;
+    
 }
