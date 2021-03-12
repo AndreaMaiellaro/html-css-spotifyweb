@@ -242,22 +242,6 @@ p {
     border-radius: 50%;
 }
 
-@media screen and (max-width: 767px) {
-    nav {
-        width: 80px;
-    }
-
-    .main-content {
-        width: calc( 100% - 80px);
-    }
-
-    .upgrade {
-        width: calc( 100% - 80px);
-    }
-}
-
-
-
 /*footer*/
 
 footer {
@@ -364,4 +348,252 @@ footer i:hover {
 
 .light-line-due:hover {
     background-color: limegreen;
+}
+
+/*smartphone*/
+
+@media screen and (max-width: 480px) {
+    nav {
+        width: 50px;
+    }
+
+    .main-content {
+        width: calc( 100% - 50px);
+    }
+
+    .upgrade {
+        width: calc( 100% - 50px);
+    }
+
+    .margine {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .menu {
+        height: 50px;
+    }
+
+    .menu li {
+        margin-bottom: 8px;
+    }
+
+    .img-footer {
+        height: 40px;
+    }
+    
+    .margin-img-footer {
+        padding: 8% 4% 8% 4%;
+        display: inline-block;
+    }
+    
+    .song {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .song h6 {
+        display: inline-block;
+        color: white;
+    }
+    
+    .song p {
+        display: inline-block;
+        font-size: 8px;
+    }
+    
+    footer i {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    footer i:hover {
+        color: lightgreen;
+        cursor: pointer;
+    }
+    
+    .play-buttons {
+        padding: 10px;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .play-buttons i {
+        margin-right: 20px;
+    }
+
+    .play-buttons i:last-child {
+        margin-right: 0px;
+    }
+    
+    .circle-footer {
+        font-size: 25px;
+        vertical-align: -3px;
+    }
+    
+    .dark-line {
+        width: 60%;
+        height: 3px;
+        margin-left: 20%;
+        margin-top: 7px;
+        border-radius: 5px;
+        background-color: grey;
+    }
+    
+    .light-line {
+        width: 30%;
+        height: 3px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    
+    .light-line:hover {
+        background-color: limegreen;
+    }
+    
+    .volume {
+        font-size: 10px;
+        text-align: left;
+        margin-top: 5%;
+        margin-right: 2%;
+        vertical-align: -30px;
+    }
+
+    .volume i {
+        margin-right: 5px;
+    }
+
+    .dark-line-due {
+        width: 30%;
+        height: 3px;
+        border-radius: 5px;
+        background-color: grey;
+        vertical-align: 3px;
+        display: inline-block;
+    }
+    
+    .light-line-due {
+        width: 30%;
+        height: 3px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    
+    .light-line-due:hover {
+        background-color: limegreen;
+    }
+}
+
+/*telefoni grandi?*/
+
+@media screen and (min-width:481px, max-width: 767px) {
+    nav {
+        width: 150px;
+    }
+
+    .main-content {
+        width: calc( 100% - 150px);
+    }
+
+    .upgrade {
+        width: calc( 100% - 150px);
+    }
+
+    .img-footer {
+        height: 40px;
+    }
+    
+    .margin-img-footer {
+        padding: 4% 2% 4% 2%;
+        display: inline-block;
+    }
+    
+    .song {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .song h6 {
+        display: inline-block;
+        color: white;
+    }
+    
+    .song p {
+        display: inline-block;
+        font-size: 8px;
+    }
+    
+    footer i {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    footer i:hover {
+        color: lightgreen;
+        cursor: pointer;
+    }
+    
+    .play-buttons {
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .play-buttons i {
+        margin-right: 20px;
+    }
+    
+    .circle-footer {
+        font-size: 30px;
+        vertical-align: -3px;
+    }
+    
+    .dark-line {
+        width: 80%;
+        height: 3px;
+        margin-left: 10%;
+        margin-top: 7px;
+        border-radius: 5px;
+        background-color: grey;
+    }
+    
+    .light-line {
+        width: 30%;
+        height: 3px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    
+    .light-line:hover {
+        background-color: limegreen;
+    }
+    
+    .volume {
+        text-align: right;
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+    
+    .dark-line-due {
+        width: 25%;
+        height: 3px;
+        margin-left: 10px;
+        border-radius: 5px;
+        background-color: grey;
+        vertical-align: 3px;
+        display: inline-block;
+    }
+    
+    .light-line-due {
+        width: 30%;
+        height: 3px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    
+    .light-line-due:hover {
+        background-color: limegreen;
+    }
 }
