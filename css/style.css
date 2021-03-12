@@ -212,6 +212,16 @@ nav a:hover {
     margin-right: 2%;
 }
 
+.album {
+    width: 100%;
+    display: flex;
+}
+
+.col-album {
+    width: calc( 100% / 6 );
+    margin-right: 20px;
+}
+
 .margine h2 {
     margin-bottom: 20px;
 }
