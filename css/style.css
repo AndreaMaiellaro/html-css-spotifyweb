@@ -353,6 +353,10 @@ footer i:hover {
 /*smartphone*/
 
 @media screen and (max-width: 480px) {
+    .my-hidden {
+        display: none;
+    }
+
     nav {
         width: 50px;
     }
@@ -455,7 +459,7 @@ footer i:hover {
     .volume {
         font-size: 10px;
         text-align: left;
-        margin-top: 5%;
+        margin-top: 33%;
         margin-right: 2%;
         vertical-align: -30px;
     }
@@ -487,7 +491,7 @@ footer i:hover {
 
 /*telefoni grandi?*/
 
-@media screen and (min-width:481px, max-width: 767px) {
+@media screen and (max-width:767px) {
     nav {
         width: 150px;
     }
@@ -498,6 +502,143 @@ footer i:hover {
 
     .upgrade {
         width: calc( 100% - 150px);
+    }
+
+    .margine {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .menu {
+        margin-bottom: 10px;
+    }
+
+    .menu ul {
+        margin-bottom: 8px;
+    }
+
+    .img-footer {
+        height: 40px;
+    }
+    
+    .margin-img-footer {
+        padding: 4% 2% 4% 2%;
+        display: inline-block;
+    }
+    
+    .song {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .song h6 {
+        display: inline-block;
+        color: white;
+    }
+    
+    .song p {
+        display: inline-block;
+        font-size: 8px;
+    }
+    
+    footer i {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    footer i:hover {
+        color: lightgreen;
+        cursor: pointer;
+    }
+    
+    .play-buttons {
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .play-buttons i {
+        margin-right: 20px;
+    }
+    
+    .circle-footer {
+        font-size: 30px;
+        vertical-align: -3px;
+    }
+    
+    .dark-line {
+        width: 80%;
+        height: 3px;
+        margin-left: 10%;
+        margin-top: 7px;
+        border-radius: 5px;
+        background-color: grey;
+    }
+    
+    .light-line {
+        width: 30%;
+        height: 3px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    
+    .light-line:hover {
+        background-color: limegreen;
+    }
+    
+    .volume {
+        text-align: right;
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+    
+    .dark-line-due {
+        width: 25%;
+        height: 3px;
+        margin-left: 10px;
+        border-radius: 5px;
+        background-color: grey;
+        vertical-align: 3px;
+        display: inline-block;
+    }
+    
+    .light-line-due {
+        width: 30%;
+        height: 3px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    
+    .light-line-due:hover {
+        background-color: limegreen;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    nav {
+        width: 220px;
+    }
+
+    .main-content {
+        width: calc( 100% - 220px);
+    }
+
+    .upgrade {
+        width: calc( 100% - 220px);
+    }
+
+    .margine {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .menu {
+        margin-bottom: 10px;
+    }
+
+    .menu ul {
+        margin-bottom: 8px;
     }
 
     .img-footer {
