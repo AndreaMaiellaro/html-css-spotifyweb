@@ -212,6 +212,10 @@ nav a:hover {
     margin-right: 2%;
 }
 
+.img-album-wrapper {
+    position: relative;
+}
+
 .album {
     width: 100%;
     display: flex;
@@ -220,16 +224,24 @@ nav a:hover {
 .col-album {
     width: calc( 100% / 6 );
     padding-right: 20px;
-    position: relative;
 }
 
 .play-btn {
     font-size: 50px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+.col-album:hover .play-btn {
+    display: flex;
+    cursor: pointer;
 }
 
 .margine h2 {
@@ -252,6 +264,10 @@ p {
 
 .popular {
     margin-top: 30px;
+}
+
+.popular .play-btn {
+    border-radius: 50%;
 }
 
 .img-album {
