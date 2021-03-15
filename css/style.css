@@ -388,6 +388,17 @@ footer i:hover {
         margin-right: 2%;
     }
 
+    .album {
+        width: 100%;
+        display: flex;
+    }
+
+    .col-album {
+        width: calc( 100% / 4 );
+        margin-right: 20px;
+        flex-wrap: wrap;
+    }
+
     .menu {
         margin-bottom: 10px;
     }
@@ -516,6 +527,17 @@ footer i:hover {
     .margine {
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    .album {
+        width: 100%;
+        display: flex;
+    }
+
+    .col-album {
+        width: calc( 100% / 4 );
+        margin-right: 20px;
+        flex-shrink: 1;
     }
 
     .menu {
@@ -685,6 +707,19 @@ footer i:hover {
     .margine {
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    .album {
+        width: 100%;
+        display: flex;
+        
+    }
+    
+    .col-album {
+        width: calc( 100% / 2 );
+        margin-right: 10px;
+        flex-shrink: 3;
+        flex-wrap: wrap;
     }
 
     .menu {
