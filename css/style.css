@@ -219,7 +219,17 @@ nav a:hover {
 
 .col-album {
     width: calc( 100% / 6 );
-    margin-right: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.play-btn {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .margine h2 {
@@ -391,12 +401,12 @@ footer i:hover {
     .album {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
     }
 
     .col-album {
         width: calc( 100% / 4 );
-        margin-right: 20px;
-        flex-wrap: wrap;
+        padding-right: 20px;
     }
 
     .menu {
@@ -532,12 +542,12 @@ footer i:hover {
     .album {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
     }
 
     .col-album {
-        width: calc( 100% / 4 );
-        margin-right: 20px;
-        flex-shrink: 1;
+        width: calc( 100% / 2 );
+        padding-right: 10px;
     }
 
     .menu {
@@ -712,14 +722,12 @@ footer i:hover {
     .album {
         width: 100%;
         display: flex;
-        
+        flex-wrap: wrap;
     }
     
     .col-album {
         width: calc( 100% / 2 );
-        margin-right: 10px;
-        flex-shrink: 3;
-        flex-wrap: wrap;
+        padding-right: 10px;
     }
 
     .menu {
